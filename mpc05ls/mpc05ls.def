@@ -1,0 +1,33 @@
+LIBRARY
+
+EXPORTS
+	M05_init_board=_M05_init_board@0
+	M05_on_comm=_M05_on_comm@4
+	M05_open_link=_M05_open_link@8
+	M05_close_file=_M05_close_file@0
+	M05_close_link=_M05_close_link@4
+	M05_compile_work_file=_M05_compile_work_file@4
+	M05_create_file=_M05_create_file@8
+	M05_del_file=_M05_del_file@4
+	M05_del_all_file=_M05_del_all_file@0
+	M05_download_work_file=_M05_download_work_file@4
+	M05_get_file_num=_M05_get_file_num@8
+	M05_open_file=_M05_open_file@12
+	M05_set_work_file=_M05_set_work_file@4
+	M05_send_cmd=_M05_send_cmd@8
+	M05_control_func=_M05_control_func@4
+	M05_get_board_info=_M05_get_board_info@4
+	M05_get_board_ver=_M05_get_board_ver@0
+	M05_get_hdw_ver=_M05_get_hdw_ver@0
+	M05_get_lib_ver=_M05_get_lib_ver@0
+	M05_GetCardNumber=_M05_GetCardNumber@4
+	M05_WriteDogNumber=_M05_WriteDogNumber@4
+	M05_ReadDogNumber=_M05_ReadDogNumber@4
+	M05_GetCanUseTime=_M05_GetCanUseTime@0
+	M05_SetCanUseTime=_M05_SetCanUseTime@4
+	M05_GetHasUseTime=_M05_GetHasUseTime@0
+	M05_SetHasUseTime=_M05_SetHasUseTime@4
+	M05_get_pre_worktime=_M05_get_pre_worktime@4
+	M05_write_data_to_flash=_M05_write_data_to_flash@12
+	M05_read_data_from_flash=_M05_read_data_from_flash@12
+	M05_erase_flash=_M05_erase_flash@8
